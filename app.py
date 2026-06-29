@@ -54,8 +54,8 @@ st.markdown(
     """
     <style>
         :root {
-            --primary: #2563eb;
-            --secondary: #4f46e5;
+            --primary: #111827;
+            --secondary: #374151;
             --success: #16a34a;
             --danger: #dc2626;
             --bg: #ffffff;
