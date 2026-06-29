@@ -7,8 +7,11 @@ import streamlit as st
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
+
 nltk.download('stopwords', quiet=True)
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+
 
 stop_words = set(stopwords.words('english'))
 ps = PorterStemmer()
